@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valx"
+        android:textSize="55dp"
+        android:gravity="center">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valy"
+        android:textSize="55dp"
+        android:layout_below="@+id/valx"
+        android:gravity="center">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valz"
+        android:textSize="55dp"
+        android:layout_below="@+id/valy"
+        android:gravity="center">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prdata"
+        android:layout_centerInParent="true"
+        android:textSize="55dp"
+        android:gravity="center">
+
+    </TextView>
+
+
+</RelativeLayout>
